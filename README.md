@@ -17,6 +17,6 @@ docker build -t httpie .
 Set up the following aliases:
 
 ```bash
-alias http="docker run -it --rm httpie"
-alias https="docker run -it --rm --entrypoint https httpie"
+alias http="docker run -it --rm ghcr.io/weierophinney/httpie-docker"
+alias https="docker run -it --rm --entrypoint https ghrcr.io/weierophinney/httpie-docker"
 ```
